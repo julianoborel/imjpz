@@ -19,6 +19,6 @@
     </style>
 </head>
 <body>
-<img src="{{ asset('images/sua-imagem.jpg') }}" alt="Minha Imagem">
+<img src="{{ asset('images/imjp-logo.png') }}" alt="Minha Imagem">
 </body>
 </html>
