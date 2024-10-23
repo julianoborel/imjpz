@@ -28,8 +28,6 @@ Route::post('/logout', [AuthController::class, 'logout'])->middleware('auth:sanc
 Route::apiResource('user', UserController::class);
 Route::apiResource('music', MusicController::class);
 Route::apiResource('scale', ScaleController::class);
-Route::apiResource('minister', MinisterController::class);
-Route::apiResource('backing-vocal', BackingVocalController::class);
 Route::post('/add-participant', [WppController::class, 'addParticipant']);
 Route::post('/send-text', [WppController::class, 'sendText']);
 Route::post('/check-escala', [EscalaController::class, 'checkEscala']);
